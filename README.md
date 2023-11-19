@@ -1,4 +1,4 @@
-## [odin-admin-dashboard](https://victorxph.github.com/odin-admin-dashboard)
+## [odin-admin-dashboard](https://victorxph.github.io/odin-admin-dashboard)
 
 
 The Odin Project/college project

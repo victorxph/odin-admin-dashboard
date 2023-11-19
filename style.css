@@ -249,6 +249,7 @@ header{
 
     cursor: pointer;
     text-decoration: underline;
+    opacity: 80%;
 
 }
 
@@ -362,7 +363,7 @@ article p ,article span{
     left: -1px;
     /* z-index: -1; */
     height: 100%;
-    width: 12.5px;
+    width: 6.5px;
     border-radius: 10px 0px 0px 10px;
     background: linear-gradient(to top, #FFE00A, #FF0EB3);
 
@@ -374,6 +375,20 @@ article p ,article span{
 
 }
 
+.dash-item-content h2{
+
+    width: fit-content;
+
+}
+
+.dash-item-content h2:hover{
+
+    cursor: pointer;
+    opacity: 80%;
+    text-decoration: underline;
+
+}
+
 .dash-actions{
 
     grid-row: 2 / -1;
@@ -381,6 +396,13 @@ article p ,article span{
     display: flex;
     justify-content: space-between;
     align-items: end;
+
+}
+
+.dash-actions img:hover{
+
+    cursor: pointer;
+    opacity: 80%;
 
 }
 
@@ -407,13 +429,20 @@ article p ,article span{
 }
 
 .announcement h3{
-
+    
     font-size: 17px;
     margin-bottom: 5px;
     margin-top: 5px;
-
+    
 }
 
+.announcement h3:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 85%;
+
+}
 .announcement p{
 
     font-size: 15px;
@@ -449,17 +478,18 @@ article p ,article span{
     grid-template-columns: 50px 1fr;
     row-gap: 5px;
     column-gap: 15px;
-    
+    width: fit-content;
 
 }
 
-.colleague img{
 
+.colleague img{
+    
     height: 50px;
     border-radius: 50%;
     grid-row: 1 / -1;
     align-self: center;
-
+    
 }
 
 .coll-at{
@@ -467,6 +497,11 @@ article p ,article span{
     align-self: end;
     font-weight: bold;
     color: #2B292B;
-
+    
 }
 
+.colleague img:hover, .coll-at:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+}

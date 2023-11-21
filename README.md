@@ -3,4 +3,4 @@
 
 The Odin Project/college project
 
--The main objective was to improve my CSS grid skills, there's also some flexbox for one dimension elements.
+- The main objective was to improve my CSS grid skills, there's also some flexbox for one dimension elements.
